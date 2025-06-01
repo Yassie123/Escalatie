@@ -1111,7 +1111,7 @@ function createRenderer(device) {
 // Discover PixelPusher devices
 service.on('discover', createRenderer);
 ```
-## Stap 8: schrijf script voor webserver
+## Stap 8: schrijf code voor webserver
 Ontwerp een design voor de teller er goed uit te laten zien. Met html, css en javascript
 
 - maak een map aan, bv: web
