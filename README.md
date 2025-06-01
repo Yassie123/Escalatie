@@ -1670,6 +1670,17 @@ Ga vervolgens naar de folder van je server.js file en run het script via dit com
 Doe dit voor beide pi's
 
 
-## Stap 7: schrijf script voor pi 2
+## Tips
 
-remote explorer visual studio code
+- Als je pi niet reageert kan je testen of je nog netwerkconnectiviteit hebt met volgende code:
+
+```
+# Van Pi1 naar Pi2:
+ping 192.168.100.3
+```
+```
+# Van Pi2 naar Pi1:
+ping 192.168.100.1
+```
+
+
