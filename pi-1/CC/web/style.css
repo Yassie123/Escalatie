@@ -1,0 +1,229 @@
+/* style.css */
+
+/* Algemene body stijl */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+/* Teller zelf */
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    font-size: 4em;
+    font-weight: bold;
+    color: #d4f04d;
+    transition: transform 0.2s ease;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+/* De tekst van de staatsschuld */
+.debt-value {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* Container voor de vliegende euro's */
+#flying-euros {
+    position: absolute;
+    top: 300px;
+    left: 100%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+#grafiek {
+    position: absolute;
+    top: 400px;
+    left: 100%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+/* Animatie voor de vliegende euro's recht omhoog */
+@keyframes flyUp {
+    0% {
+        transform: translateY(0px); /* Beginpositie */
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-60px); /* Vlieg recht omhoog */
+        opacity: 0; /* Maak ze onzichtbaar */
+    }
+}
+@keyframes appear {
+    0% {
+        transform: translateY(0px); /* Beginpositie */
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-10px); /* Vlieg recht omhoog */
+        opacity: 0; /* Maak ze onzichtbaar */
+    }
+}
+.grafiek{
+    position: absolute;
+    animation: appear 2s forwards; /* Duur van de animatie */
+}
+/* Vliegende euro's stijl */
+.flying-euro {
+    font-size: 3em;
+    font-weight: 600;
+    font-family: 'Arial', sans-serif;
+    color: red;
+    position: absolute;
+    animation: flyUp 2s forwards; /* Duur van de animatie */
+}
+
+
+
+
+div.raster1{
+    width: 100vh;
+    right: -500px;
+    position: absolute;
+    z-index: -1;
+    rotate: 90;
+}
+div.raster1 img{
+    width: 100%;
+}
+
+div.raster2{
+    width: 50vh;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    rotate: 180deg;
+}
+div.raster2 img{
+    width: 100%;
+}
+
+
+div.centje1{
+    position: absolute;
+    width: 15%;
+    left: 40px;
+    top: 40px;
+}
+
+div.centje1 img, div.centje3 img, div.centje5 img, div.centje7 img {
+    width: 100%;
+    animation: draaienlinks 10s ease-in-out infinite;
+
+}
+
+div.centje2 img, div.centje4 img, div.centje6 img, div.centje8 img {
+    width: 100%;
+    animation: draaienrechts 10s ease-in-out infinite;
+
+}
+div.centje2{
+    position: absolute;
+    width: 20%;
+    rotate: -10deg;
+    left: 150px;
+    top: 250px;
+}
+
+div.centje3{
+    position: absolute;
+    width: 15%;
+    rotate: -90deg;
+    left: 20px;
+    bottom: 30px;
+}
+
+div.centje4{
+    position: absolute;
+    width: 20%;
+    rotate: -30deg;
+    right: 20px;
+    top: 30px;
+}
+
+div.centje5{
+    position: absolute;
+    width: 10%;
+    rotate: -80deg;
+    right: 80px;
+    top: 300px;
+}
+div.centje6{
+    position: absolute;
+    width: 15%;
+    rotate: 0deg;
+    right: 80px;
+    bottom: 50px;
+}
+div.centje7{
+    position: absolute;
+    width: 20%;
+    rotate: -100deg;
+    right: 500px;
+    top: 50px;
+}
+
+div.centje8{
+    position: absolute;
+    width: 10%;
+    rotate: 0deg;
+    right: 500px;
+    bottom: 20px;
+}
+
+
+@keyframes draaienlinks {
+    0%{
+        rotate: 0deg;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    50%{
+        rotate: -20deg;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+    100%{
+        rotate: 0deg;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+}
+
+
+@keyframes draaienrechts {
+    0%{
+        rotate: 0deg;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    50%{
+        rotate: 20deg;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    100%{
+        rotate: 0deg;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}

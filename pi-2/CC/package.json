@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "node-pixel-pusher": "^1.0.4",
+    "serialport": "^13.0.0"
+  }
+}
