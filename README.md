@@ -1,6 +1,8 @@
 
 # Escalatie - de staatsschuld van België
+
 https://youtu.be/LOAMO-tvSa8?feature=shared
+
 APtrap presenteert: €scalatie
 
 Een installatie om de huidige staatsschuld van België voor te stellen.
@@ -36,6 +38,10 @@ De vraag is: hoe lang kun jij het volhouden tegen de groeiende schuldenberg?
 
 - 2x Laptops
 
+- lasercutter
+
+- aluminium 
+
 
 
 
@@ -49,7 +55,9 @@ De vraag is: hoe lang kun jij het volhouden tegen de groeiende schuldenberg?
 
 - javascript, Arduino IDE( arduino c++)
 
-- Teamviewer 
+- Teamviewer
+
+- illustrator
 
 
 ## Netwerk Configuratie
@@ -171,6 +179,17 @@ JAVASCRIPT:
 ```
 https://github.com/Yassie123/Escalatie/blob/main/pi-1/CC/web/script.js
 ```
+## Stap 9: maak de omkadering van de ledpanelen + kluisdozen
+
+Gebruik volgende files om met de lasercutter te werken:
+
+**Omkadering voor de ledpanelen in te hangen (9):**
+
+https://github.com/Yassie123/Escalatie/blob/main/ledpanelen.ai.ps
+
+**Kluisdozen:** beplak deze met aluminium voor een coole afwerking.
+
+https://github.com/Yassie123/Escalatie/blob/main/kluis.ai.ps
 
 ## Code folder overzicht
 **Pi 1: 192.168.100.1**
