@@ -26,9 +26,15 @@ De vraag is: hoe lang kun jij het volhouden tegen de groeiende schuldenberg?
 
 - 2 MicroSDHC kaarten ( minimum 8GB+, the faster the better)
 
-- 2x Arduino + 2x Drukknoppen:
+- 2x Arduino + 2x Drukknoppen
 
-- 1 8x LED-matrix displays (compatibel met PixelPusher): 
+- 18x LED-matrix displays (compatibel met PixelPusher) + bijhorende aansluitingen
+
+- 2X powersupply
+
+- eventueel karton, voor muren 
+
+- 2X Raspberry pi led matrix controller
 
 - Netgear GS108, 8 ethernet ports
 
@@ -38,7 +44,13 @@ De vraag is: hoe lang kun jij het volhouden tegen de groeiende schuldenberg?
 
 - 2x Laptops
 
-- lasercutter
+- lasercutter + hout
+
+- 2x houten frame led lichtjes
+
+- trap(je)
+
+- 2x dozen voor kluizen
 
 - aluminium 
 
