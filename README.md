@@ -207,6 +207,8 @@ cc-button
 
 ## Setup
 
+https://github.com/Yassie123/Escalatie/blob/main/opstelling.JPG
+
 Pi 1:
 - arduino aangesloten met stroom kabeltjes naar de GND (ground) en D4
 - Usb kabel vanuit pi verbonden met de arduino
